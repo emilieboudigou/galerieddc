@@ -31,7 +31,7 @@ nav ul li{
         display: inline-block;
 }
 
-#trait1{
+.trait1{
         width: 1428px;
         height: 6px;
         background: #E51A38;
