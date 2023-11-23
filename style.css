@@ -7,6 +7,8 @@ header{
         display: flex;
 }
 
+h
+
 nav{
         display: inline-block;
         float: right;
@@ -37,7 +39,7 @@ nav ul li{
         background: #E51A38;
 }
 
-.dessin{
+.dessin img{
         width: 799px;
         height: 386px;
         display: block;
