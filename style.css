@@ -1,0 +1,148 @@
+#logo img{
+        width: 200px;
+        margin-left: 30px;
+}
+
+header{
+        display: flex;
+}
+
+nav{
+        display: inline-block;
+        float: right;
+        margin-top: 60px;
+}
+
+nav ul li a{
+        font-size: 30px;
+        color: black;
+        padding: 10px 50px;
+        text-decoration: none;
+        border-radius: 10px;
+        margin-right: 10px;
+}
+
+nav ul{
+        list-style:none;
+}
+
+nav ul li{
+        margin: 10px;
+        display: inline-block;
+}
+
+#trait1{
+        width: 1428px;
+        height: 6px;
+        background: #E51A38;
+}
+
+#dessin img{
+        width: 799px;
+        height: 386px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 110px;
+}
+
+#Bienvenue{
+        width: 1100px;
+        padding: 20px 0px;
+        margin-left: 200px;
+        color: #000;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 30px;
+
+}
+
+.dedale{
+        color: #E51A38;
+}
+
+#photos img{
+        width: 299px;
+        height: 208px;
+        margin-left: 140px; 
+        margin-top: 50px;   
+}
+
+#villefranche{
+        width: 1096px;
+        height: 330px;
+        flex-shrink: 0;
+        font-family: Istok Web;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 100px;
+        margin-left: 200px;
+}
+
+#trait2{
+        background: #E51A38;
+        width: 344px;
+        height: 5px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+h3{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        color: #E51A38;
+}
+
+#bloc{
+        margin-left: 50px;
+        margin-top: 70px;
+        padding: 20px;
+}
+
+#bloc img{
+        width: 426px;
+        height: 441px;
+        float: left;
+}
+
+#bloc p{
+        font-family: Istok Web;
+        font-size: 28px;
+        height: 401px;
+        width: 450px;
+        text-align: justify;
+        margin-left: 480px
+
+
+}
+
+#trait3{
+        background: #E51A38;
+        width: 344px;
+        height: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+}
+
+#Susplugas{
+        text-align: center;
+        font-family: Istok Web;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 100px;
+}
+
+#expositions img{
+        width: 332px;
+        height: 496px;
+        margin-left: 100px; 
+        margin-top: 50px;   
+}
