@@ -83,18 +83,6 @@ nav ul li{
         margin-top: 50px;   
 }
 
-#villefranche{
-        width: 1096px;
-        height: 330px;
-        flex-shrink: 0;
-        font-family: Istok Web;
-        font-size: 28px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        margin-top: 100px;
-        margin-left: 200px;
-}
 
 #trait2{
         background: #E51A38;
