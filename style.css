@@ -162,11 +162,12 @@ h3{
 }
 
 #trait4{
-        background: #E51A38;
+       background: #E51A38;
         width: 344px;
         height: 5px;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 100px;
 }
 
         
