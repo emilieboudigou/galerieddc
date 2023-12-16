@@ -3,6 +3,13 @@
         margin-left: 30px;
 }
 
+#burger{
+	width:30px;
+	hight:2pc;
+	background;white;
+	display:inline-block;
+	position:relative;
+}
 header{
         display: flex;
 }
