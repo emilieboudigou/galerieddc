@@ -5,11 +5,32 @@
 
 #burger{
 	width:30px;
-	hight:2pc;
-	background;white;
+	hight:2p;
+	background:white;
 	display:inline-block;
 	position:relative;
 }
+
+#burger::before,
+#burger::after{
+	content:'';
+	width:30px;
+	hight:2px;
+	background:white;
+	display:inline-block;
+	position:absolute;
+	transform-origin: center;
+	transition:all 0.3s ease;
+}
+
+#burger::before{
+	top:-7px;
+}
+
+#burger::after{
+	top:-7px;
+}
+	
 header{
         display: flex;
 }
