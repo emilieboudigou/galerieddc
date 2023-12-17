@@ -1,53 +1,29 @@
+.container{
+        margin: 0;
+        padding: 0;
+}
+
 #logo img{
         width: 200px;
         margin-left: 30px;
 }
 
-#burger{
-	width:30px;
-	hight:2p;
-	background:white;
-	display:inline-block;
-	position:relative;
-}
-
-#burger::before,
-#burger::after{
-	content:'';
-	width:30px;
-	hight:2px;
-	background:white;
-	display:inline-block;
-	position:absolute;
-	transform-origin: center;
-	transition:all 0.3s ease;
-}
-
-#burger::before{
-	top:-7px;
-}
-
-#burger::after{
-	top:-7px;
-}
-	
 header{
         display: flex;
 }
 
 nav{
-        display: inline-block;
-        float: right;
-        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 }
 
 nav ul li a{
         font-size: 30px;
         color: black;
-        padding: 10px 50px;
+        padding: 18px;
         text-decoration: none;
         border-radius: 10px;
-        margin-right: 10px;
 }
 
 nav ul{
@@ -55,25 +31,21 @@ nav ul{
 }
 
 nav ul li{
-        margin: 10px;
+        margin: 20px;
         display: inline-block;
 }
 
 #villefranche{
-        width: 1096px;
-        height: 330px;
+        text-align: justify;
         flex-shrink: 0;
         font-family: Istok Web;
         font-size: 28px;
         font-style: normal;
-        font-weight: 400;
         line-height: normal;
-        margin-top: 100px;
-        margin-left: 200px;
+        margin-top: 80px;
 }
 
 .trait1{
-        width: 1428px;
         height: 6px;
         background: #E51A38;
 }
@@ -106,9 +78,9 @@ nav ul li{
 
 #photos img{
         width: 299px;
-        height: 208px;
-        margin-left: 140px; 
-        margin-top: 50px;   
+        height: 228px;
+        margin: 20px;
+        margin-top: 50px;  
 }
 
 
@@ -118,6 +90,65 @@ h3{
         text-align: center;
         color: #E51A38;
 }
+
+.gallery_bloc{
+        display: flex;
+
+}
+
+      
+.card-body>div {
+      padding: 5px;
+}
+.card-body p{
+        font-size: 20px;
+        text-align: justify;
+}
+.card{
+        border: none;
+        
+}
+.container .card .card-header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.container .card .card-header img{
+        width: 60%;
+        height: 100%;
+}
+
+.card-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 100px;
+}
+.card-container .card{
+        width: 325px;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, .2);
+        margin: 20px;
+        text-align: left;
+}
+
+.card img{
+        width: 100%;
+        height: 100%;
+}
+
+.card-content{
+        padding: 16px;
+        text-align: left;
+}
+
+.card-content p{
+        font-size: 28px;
+        margin-bottom: 8px;
+        font-weight: bold;
+}
+
 
 #bloc{
         margin-left: 50px;
@@ -135,11 +166,8 @@ h3{
         font-family: Istok Web;
         font-size: 28px;
         height: 401px;
-        width: 450px;
         text-align: justify;
         margin-left: 480px
-
-
 }
 
 #Susplugas{
@@ -147,7 +175,6 @@ h3{
         font-family: Istok Web;
         font-size: 30px;
         font-style: normal;
-        font-weight: 400;
         line-height: normal;
         margin-top: 100px;
 }
@@ -160,16 +187,13 @@ h3{
 }
 
 #expo{
-        width: 1096px;
-        height: 330px;
         flex-shrink: 0;
         font-family: Istok Web;
         font-size: 28px;
         font-style: normal;
-        font-weight: 400;
         line-height: normal;
-        margin-top: 100px;
-        margin-left: 200px;
+        margin-top: 5%;
+        text-align: justify;
 }
 
 
@@ -182,70 +206,177 @@ h3{
         margin-top: 100px;
 }
 
-.images img{
-        margin-left: 100px; 
+.trait{
+        background: #E51A38;
+        width: 344px;
+        height: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
 }
 
-.images2 img{
-        margin-left: 250px; 
-        margin-top: 30px;
+.footer{
+        width: 100%;
+        bottom: 0;
+        left: 0;
 }
 
-.chapelle{
-	text-align: center;
+.footer .top-white{
+        font-size: 28px;
+        display: flex;
+        justify-content: space-between;
+}
+.footer .top-white .contact{
+        text-align: center;
+        margin-bottom: 10px;
 }
 
-.titre{
-	color: #E51A38;
-	font-weight: bold;
+.footer form{
+        margin-bottom: 10px;
+}
+.footer form input{
+        margin-bottom: 10px;
+        font-weight: 400;
+        font-size: 28px;
 }
 
-.contact{
-	margin-left: 100px;
-	margin-top: 50px;
+.envoyer{
+        text-align: center;
+}
+.footer .bottom-red{
+        display: flex;
+        justify-content: space-between;
+        height: 190px;
+        background-color: rgba(180, 50, 63, .9);
+}
+.bottom-red .mention_legales{
+        width: 35%;
+}
+.mention_legales p{
+        position: relative;
+        top: 120px;
+        left: 50px;
+        font-size: 23px;
+}
+.bottom-red .follow-us{
+        position: relative;
+        top: 20px;
+        width: 60%;
+        font-size: 29px;
+        text-align: center;
+}
+.media-icons a{
+        font-size: 60px;
+        color: #fff;
+        padding: 10px;
+}
+.partenariat{
+        font-size: 18px;
+        text-align: center;
+}
+.partenariat img{
+        width: 70%;
+        height: 60%;
 }
 
-form{
-	margin-top: -150px;
-	float: right;
-	margin-right: 50px;
+@media (max-width: 1279px) {
+
+        nav{
+                font-size: 10px;
+        }
+        
+        nav ul li a{
+                font-size: 20px;
+                color: black;
+                padding: 1px;
+        }
+
+        .footer .top-white{
+                display: inline-block;
+                position: relative;
+                left: 210px;
+        }
+        #photos{
+                display: inline-block;
+        }
+        #bloc{
+                display: block;
+        }
+        
+        #bloc img{
+                width: 410px;
+                height: 429px;
+        }
+        
+        #bloc p{
+                font-family: Istok Web;
+                font-size: 22px;
+                text-align: justify;
+        }
+        
+        .mention_legales p{
+                font-size: 20px;
+                top: 125px;
+                left: 1px;
+        }
+
+        .top-white form{
+                margin-top: 30px;
+        }
+        .partenariat img{
+                width: 60%;
+                height: 45%;
+        }
+        
 }
 
-.Abonnez{
-	font-weight: bold;
-}
 
-.suivez{
-	background-color: #E51A38;
-	margin-top: 150px;
-	text-align: center;
-	color: white;
-}
+@media (max-width: 991px) {
+        #bloc{
+                display: inline-block;
+        }
+        
+        #bloc img{
+                width: 80%;
+                height: 80%;
+        }
+        
+        #bloc p{
+                font-family: Istok Web;
+                font-size: 22px;
+                text-align: justify;
+                margin-left: 0px;
+                margin-top: 110%;
+        }
 
-.suivez i {
-	margin-left: 20px;
-	font-size: 60px;
-	text-align: center;
-	margin-right: 10px;
-}
+        .footer .bottom-red{
+                font-size: 15px;
+        }
+        .partenariat{
+                font-size: 23px;
+                text-align: center;
+        }
+        .partenariat img{
+                width: 60%;
+                height: 30%;
+        }
+        .media-icons a{
+                font-size: 30px;
+                padding: 5px;
+        }
+        .mention_legales p{
+                font-size: 18px;
+        }
+        .bottom-red .follow-us{
+                font-size: 20px;
+        }
+        .bottom-red .follow-us{
+                top: 60px;
+        }
+        .footer .top-white{
+                left: 10px;
+        }
 
-.suivez p{
-		color: black;
-		font-style: italic;
-		text-align: left;
-}
-
-.suivez img{
-	margin-left: 1200px;
-	width: 200px;
-	height: 100px;
-	margin-top: -70px;
-}
-
-.partenaire{
-	float: right;
-	margin-right: 10px;
-	margin-top: -40px;
 }
 
 
